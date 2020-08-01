@@ -11,9 +11,6 @@ const Footer = () => {
           <img src="/logo_devpleno.png" alt="logo-devPleno"/>
         </div>
       </div>
-      <div className="menu">
-        
-      </div>
     </div>
   )
 };
