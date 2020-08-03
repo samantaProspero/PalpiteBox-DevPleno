@@ -3,6 +3,8 @@
 [![HitCount](https://hits.dwyl.com/samantaProspero/PalpiteBox-DevPleno.svg)](https://hits.dwyl.com/samantaProspero/PalpiteBox-DevPleno)
 
 
+O deploy foi feito no Vercel e pode ser visto [aqui](https://palpite-box-inky.vercel.app/).
+
 <!-- ![Preview](https://github.com/samantaProspero/PalpiteBox-DevPleno) -->
 
 ### Pré-requisitos:
@@ -17,6 +19,7 @@ npm run dev
 ## Layout:
 
 Criamos o layout utilizando o Figma. Você pode encontrar o arquivo [aqui](https://www.figma.com/file/1TdvctfjNug0vweePNiZcH/palpite-box?node-id=0%3A1).
+
 
 ## Colocando em produção:
 
