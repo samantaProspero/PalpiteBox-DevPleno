@@ -6,7 +6,7 @@ const Pesquisa = () => {
     Nome: '',
     Email: '',
     Whatsapp: '',
-    Nota: 5
+    Nota: 0
   })
   const notas = [0,1,2,3,4,5]
   const indica = ['Sim', 'Não']
@@ -38,7 +38,7 @@ const Pesquisa = () => {
       <PageTitle title='Pesquisa'/>
       <h1 className='text-center font-bold my-4 text-2xl'>Críticas e Sugestões</h1>
       <p className='text-center mb-6'>O restaurante X sempre buscar atender melhor seus clientes.<br/>Por isso, estamos sempre abertos a ouvir sua opinião</p>
-      {!success && <div className='w-1/5 mx-auto'>
+      {!success && <div className='w-1/2 mx-auto'>
 
         <label className='font-bold'>Nome: </label>
         <input type="text" className='p-4 block shadow bg-blue-200 my-2 rounded' placeholder='Nome' onChange={onChange} name='Nome' value={form.Nome}/>
@@ -80,7 +80,7 @@ const Pesquisa = () => {
         <button onClick={save} className='bg-blue-400 px-12 py-4 font-bold rounded-lg shadow-lg hover:shadow'>Salvar</button>
 
       </div>}
-      {success && <div className='w-1/3 mx-auto'>
+      {success && <div className='w-3/4 mx-auto'>
         <p className='text-center mb-6 bg-blue-100 border-t border-b border-blue-500 text-blue-700 px-4 py-3'>Obrigado por contribuir com sua sugestão ou crítica</p>
         {
           retorno.showCoupon && 
