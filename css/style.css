@@ -6,6 +6,4 @@
 .container {
   max-width: 960px;
   margin: 0 auto;
-  min-height: 100%;
-  position: relative;
 }
